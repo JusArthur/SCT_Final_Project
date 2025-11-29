@@ -2,6 +2,7 @@ import os
 import sqlite3
 from flask import Flask, request
 
+# Start the flask project
 app = Flask(__name__)
 
 DB_PASSWORD = "123456"  
